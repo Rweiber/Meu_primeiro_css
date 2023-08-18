@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+    align-items: center;
+    padding: 20px; /* Adiciona um pouco de espaço ao redor dos itens no cabeçalho */
+}
+ul {
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    list-style-type:none;
+}
+
+li a {
+    color: inherit; /* Faz com que os links herdem a cor do texto do elemento pai */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 5s ease; /* Adiciona uma transição suave ao mudar a cor de fundo */
+}
+
+button:hover {
+    background-color: #4CAF50; /* Muda a cor de fundo quando o mouse passa por cima */
+}
+img {
+    margin: 20 20 20 20;
+}
